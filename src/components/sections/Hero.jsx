@@ -50,16 +50,16 @@ export default function Hero() {
         </div>
 
         <div className="relative flex flex-col items-center gap-6">
-          <div className="relative w-full max-w-[380px]">
+          <div className="relative w-full max-w-[380px] pb-4">
             <div className="animate-floaty">
               <CardMock variant="physical" />
             </div>
-            <div className="absolute -bottom-10 -left-10 w-full max-w-[340px] opacity-90 md:-left-16">
+            <div className="absolute -bottom-6 -left-6 w-full max-w-[340px] opacity-90 sm:-bottom-8 sm:-left-10 md:-bottom-10 md:-left-16">
               <CardMock variant="digital" tilt="rotate-3" />
             </div>
           </div>
 
-          <div className="glass mt-16 w-full max-w-[340px] rounded-2xl p-5">
+          <div className="glass mt-10 w-full max-w-[340px] rounded-2xl p-5 sm:mt-16">
             <p className="mb-4 text-center text-[11px] uppercase tracking-wide text-white/40">Balance in motion</p>
             <div className="flex flex-col gap-2.5">
               {FLOW.map((step, i) => (

@@ -22,9 +22,9 @@ import FinalCTA from '../components/sections/FinalCTA.jsx'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-ink pb-16 lg:pb-0">
+    <div className="min-h-screen w-full overflow-x-hidden bg-ink pb-16 lg:pb-0">
       <Navbar />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <Problem />
         <HowItWorks />
